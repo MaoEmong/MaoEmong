@@ -19,3 +19,5 @@
 | [Synapse](https://github.com/MaoEmong/synapse-team-archive) | 노트 → 지식 그래프 → AI 플래시카드 → 간격 반복 학습 SaaS 졸업 프로젝트 (7인 팀) | Spring, Flutter, K8s, Kafka |
 | [LangGraph-Rag](https://github.com/MaoEmong/LangGraph-Rag) | 개인용 AI 비서 RAG 시스템 — 하이브리드 검색, OCR, 리랭킹, E2E 평가 | Python, LangGraph, FastAPI |
 | [컬트 오브 더 램 모작](https://github.com/MaoEmong/imitation_CultOfTheLamb) | 5인 팀 3주 제작 액션 어드벤처 모작 (URP + Spine) | Unity, C# |
+
+<!-- profile readme -->
