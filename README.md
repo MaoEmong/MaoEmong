@@ -51,8 +51,11 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MaoEmong&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=kr" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaoEmong&layout=compact&theme=tokyonight&hide=html,shaderlab,mustache&langs_count=8&locale=kr" height="165">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MaoEmong&theme=tokyonight" width="800">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MaoEmong&theme=tokyonight" height="165"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MaoEmong&theme=tokyonight" height="165">
+
+<img src="https://streak-stats.demolab.com/?user=MaoEmong&theme=tokyonight&locale=ko" height="170">
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer)
 
