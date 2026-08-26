@@ -59,10 +59,20 @@ timeline
 | --- | --- | --- |
 | [하루 기록](https://github.com/MaoEmong/haru-record) | 위치 흐름을 자동 수집해 하루의 이동 경로와 머문 곳을 정리해주는 앱 | Flutter, Riverpod, Drift |
 | [여기 한국](https://github.com/MaoEmong/travel_platform) | 여행 계획부터 숙소 예약까지 하나로 잇는 통합 여행 플랫폼 (4인 팀) | Spring Boot, Mustache, JavaScript/CSS |
-| [Synapse](https://github.com/MaoEmong/synapse-team-archive) | 노트 → 지식 그래프 → AI 플래시카드 → 간격 반복 학습 SaaS 졸업 프로젝트 (7인 팀) | Spring, Flutter, K8s, Kafka |
-| [LangGraph-Rag](https://github.com/MaoEmong/LangGraph-Rag) | 개인용 AI 비서 RAG 시스템 — 하이브리드 검색, OCR, 리랭킹, E2E 평가 | Python, LangGraph, FastAPI |
+| [Synapse](https://github.com/MaoEmong/synapse-team-archive) | 노트 → 지식 그래프 → AI 플래시카드 → 간격 반복 학습 SaaS 졸업 프로젝트 (7인 팀) · [디자인 컨셉 5종 데모](https://maoemong.github.io/synapse-design-preview/) | Spring, Flutter, K8s, Kafka |
+| [면접준비 스터디 자료실](https://maoemong.github.io/interview-study/) | CS 면접 Q&A 270문항과 Spring MVC · 트랜잭션 · SQL · MSA 인터랙티브 시뮬레이터 ([repo](https://github.com/MaoEmong/interview-study)) | HTML, SVG, Vanilla JS |
 | [컬트 오브 더 램 모작](https://github.com/MaoEmong/imitation_CultOfTheLamb) | 5인 팀 3주 제작 액션 어드벤처 모작 (URP + Spine) | Unity, C# |
 | [AppleGame](https://github.com/MaoEmong/AppleGame_Unity) + [랭킹 서버](https://github.com/MaoEmong/AppleGame_Server_Spring) | Unity 퍼즐 게임과 점수 저장·랭킹 조회 REST API 서버를 함께 만든 클라이언트-서버 조합 | Unity, Spring Boot, JPA |
+
+## 🧠 RAG 시스템 — 세 번의 반복
+
+같은 문제를 세 번 다시 만들며 매번 다른 층을 파고들었습니다.
+
+| 순서 | 프로젝트 | 파고든 지점 |
+| --- | --- | --- |
+| 1 | [RAG-LangChain-MCP](https://github.com/MaoEmong/RAG-LangChain-MCP) | **문서 수집** — PDF 스캔/텍스트 자동 판별, Tesseract OCR, 로더 규칙 분리 |
+| 2 | [LangChain-RAG-Advanced](https://github.com/MaoEmong/LangChain-RAG-Advanced) | **검색 품질** — Parent-Document Retriever, FlashRank 리랭킹, guardrail·신뢰도 스코어링, 명령 화이트리스트 검증 |
+| 3 | [LangGraph-Rag](https://github.com/MaoEmong/LangGraph-Rag) | **에이전트화와 검증** — LangGraph 노드 그래프(route→retrieve→requery→generate), DB 어댑터 추상화, E2E 평가·소크 테스트·리랭커 스윕 하네스 |
 
 ## ✍️ 대표 글
 
@@ -78,8 +88,6 @@ timeline
 <div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MaoEmong&theme=tokyonight" width="800">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MaoEmong&theme=tokyonight" height="165"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MaoEmong&theme=tokyonight" height="165">
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer)
 
