@@ -57,6 +57,7 @@ timeline
 
 | 프로젝트 | 소개 | 기술 |
 | --- | --- | --- |
+| [이음 v1](https://github.com/MaoEmong/ieum-portfolio-clean) | 사람별 기록·약속 관리 서비스의 백엔드 오류 처리·기동 검사·AI 협업을 정리한 독립 포트폴리오 · [PDF](https://github.com/MaoEmong/ieum-portfolio-clean/blob/main/output/pdf/ieum-v1-portfolio.pdf) | Java, Spring Boot, PostgreSQL, Flutter |
 | [하루 기록](https://github.com/MaoEmong/haru-record) | 위치 흐름을 자동 수집해 하루의 이동 경로와 머문 곳을 정리해주는 앱 | Flutter, Riverpod, Drift |
 | [여기 한국](https://github.com/MaoEmong/travel_platform) | 여행 계획부터 숙소 예약까지 하나로 잇는 통합 여행 플랫폼 (4인 팀) | Spring Boot, Mustache, JavaScript/CSS |
 | [Synapse](https://github.com/MaoEmong/synapse-team-archive) | 노트 → 지식 그래프 → AI 플래시카드 → 간격 반복 학습 SaaS 졸업 프로젝트 (7인 팀) · [디자인 컨셉 5종 데모](https://maoemong.github.io/synapse-design-preview/) | Spring, Flutter, K8s, Kafka |
