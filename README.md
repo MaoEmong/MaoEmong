@@ -9,31 +9,43 @@
 
 ## 👋 소개
 
-게임 클라이언트(Unity)에서 시작해 백엔드(Spring), 모바일 앱(Flutter), LLM/RAG까지 폭을 넓혀가는 개발자입니다.
+게임 개발(Unity)에서 출발해 서버(Spring), 웹(React), 모바일 앱(Flutter)과 AI를 활용한 서비스로 경험을 넓혀가고 있습니다.
 
-- 배운 것은 늘 **직접 만들어 프로젝트로** 남깁니다.
-- AI 도구를 개발 흐름에 적극적으로 끌어들여, 혼자서도 팀 규모의 결과물을 내는 방법을 실험합니다. → [AI 활용 기록](https://necessary-walleye-7cc.notion.site/AI-3657e0dfe7d681adbcabc19d8e359429)
-- 공부한 내용은 [기술 블로그](https://devmong.inblog.io/)에 정리합니다.
+- 최근에는 **사원관리 시스템 EMS**와 **AI 작업 관리 앱 픽셀 오피스**를 만들고, **이음의 서버 문제 해결·검증 사례**를 정리했습니다.
+- 요구사항과 작업 방향을 정하고 AI 도구로 구현·검증을 진행하며, 판단 근거와 확인한 결과를 프로젝트에 남깁니다. → [AI 활용 기록](https://necessary-walleye-7cc.notion.site/AI-3657e0dfe7d681adbcabc19d8e359429)
+- 기능 구현부터 오류 처리, 테스트와 배포까지 이어서 경험하고, 배운 내용은 [기술 블로그](https://devmong.inblog.io/)에 정리합니다.
+
+## 📌 대표 프로젝트
+
+| 프로젝트 | 최근 작업과 확인할 내용 | 주요 기술 |
+| --- | --- | --- |
+| [EMS · 사원관리 시스템](https://github.com/MaoEmong/ems-ai-team-portfolio) | 사원·조직·근태·휴가·데모 급여·평가 관리. 권한 검사, 변경 이력, AI 기능과 자동 검증을 함께 정리한 웹 서비스 · [화면 갤러리](https://github.com/MaoEmong/ems-ai-team-portfolio/blob/master/docs/screenshots/README.md) | Java, Spring Boot, React, TypeScript, MySQL |
+| [픽셀 오피스 · Pixel Office](https://github.com/MaoEmong/pixel-office) | Claude Code·Codex의 팀 구성, 대화·회의·작업 진행을 관리하는 Windows 앱. 질문·보고 대상 표시, 로그인·연결 복구, 이미지 첨부와 단계별 결과 기록 · [0.1.0 시험판](https://github.com/MaoEmong/pixel-office/releases/tag/v0.1.0) · [화면 27장](https://github.com/MaoEmong/pixel-office/blob/main/docs/screenshots/README.md) | Flutter, Dart, TypeScript, Node.js |
+| [이음 · Java·Spring 개발 포트폴리오](https://github.com/MaoEmong/ieum-portfolio-clean) | 사람별 기록·약속 관리 서비스에서 다룬 서버 오류 구분, 실행 설정 검사와 AI 협업 사례. 선별한 독립 예제와 테스트로 판단·검증 과정을 설명 · [PDF](https://github.com/MaoEmong/ieum-portfolio-clean/blob/main/output/pdf/ieum-v1-portfolio.pdf) | Java, Spring Boot, PostgreSQL, Flutter |
+
+픽셀 오피스로 AI 팀의 작업을 관리하며 EMS를 제작했습니다. 사용하는 도구의 문제를 수정하고, 그 도구로 실제 서비스를 만드는 과정을 함께 경험했습니다. 프로젝트별 README에는 구현 내용과 검증 결과, 아직 확인하지 못한 범위를 구분해 남깁니다.
 
 ## 🌱 성장 타임라인
 
 ```mermaid
 timeline
-    title Unity에서 시작해 AI까지
+    title Unity에서 시작해 서비스 개발과 AI 협업까지
     2024 : Unity 게임 개발 시작 : C# · 모작과 자작 게임 : 처음 AI 도구를 만나다
     2025 : Unity 심화 — URP · Spine · 팀 모작 : Java · 네트워크 기초 : AI 협업 본격화
     2026 : Spring 백엔드 · 웹 : Flutter 앱 : RAG · LLM · Multi-Agent : Docker · MSA · K8s
+    2026.09 : 이음 Java·Spring 개발 포트폴리오 정리
+    2026.10 : React · Spring 기반 EMS 제작 : 픽셀 오피스 Windows 0.1.0 시험판 공개
 ```
 
 ## 🛠 기술 스택
 
 **Backend**
 
-<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
 
 **Web**
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/OAuth%202.0%20%2F%20OIDC-EB5424?style=for-the-badge&logo=auth0&logoColor=white">
+<img src="https://img.shields.io/badge/React-149ECA?style=for-the-badge&logo=react&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/OAuth%202.0%20%2F%20OIDC-EB5424?style=for-the-badge&logo=auth0&logoColor=white">
 
 **App**
 
@@ -53,15 +65,13 @@ timeline
 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/MSA-FF9800?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 
-## 📌 대표 프로젝트
+## 🗂 다른 프로젝트
 
 | 프로젝트 | 소개 | 기술 |
 | --- | --- | --- |
-| [이음 v1](https://github.com/MaoEmong/ieum-portfolio-clean) | 사람별 기록·약속 관리 서비스의 백엔드 오류 처리·기동 검사·AI 협업을 정리한 독립 포트폴리오 · [PDF](https://github.com/MaoEmong/ieum-portfolio-clean/blob/main/output/pdf/ieum-v1-portfolio.pdf) | Java, Spring Boot, PostgreSQL, Flutter |
 | [하루 기록](https://github.com/MaoEmong/haru-record) | 위치 흐름을 자동 수집해 하루의 이동 경로와 머문 곳을 정리해주는 앱 | Flutter, Riverpod, Drift |
-| [여기 한국](https://github.com/MaoEmong/travel_platform) | 여행 계획부터 숙소 예약까지 하나로 잇는 통합 여행 플랫폼 (4인 팀) | Spring Boot, Mustache, JavaScript/CSS |
+| [여기 한국](https://github.com/MaoEmong/travel_platform) | 여행 계획부터 숙소 예약까지 하나로 잇는 통합 여행 플랫폼 (팀 프로젝트) | Spring Boot, Mustache, JavaScript/CSS |
 | [Synapse](https://github.com/MaoEmong/synapse-team-archive) | 노트 → 지식 그래프 → AI 플래시카드 → 간격 반복 학습 SaaS 졸업 프로젝트 (7인 팀) · [디자인 컨셉 5종 데모](https://maoemong.github.io/synapse-design-preview/) | Spring, Flutter, K8s, Kafka |
-| [면접준비 스터디 자료실](https://maoemong.github.io/interview-study/) | CS 면접 Q&A 270문항과 Spring MVC · 트랜잭션 · SQL · MSA 인터랙티브 시뮬레이터 ([repo](https://github.com/MaoEmong/interview-study)) | HTML, SVG, Vanilla JS |
 | [컬트 오브 더 램 모작](https://github.com/MaoEmong/imitation_CultOfTheLamb) | 5인 팀 3주 제작 액션 어드벤처 모작 (URP + Spine) | Unity, C# |
 | [AppleGame](https://github.com/MaoEmong/AppleGame_Unity) + [랭킹 서버](https://github.com/MaoEmong/AppleGame_Server_Spring) | Unity 퍼즐 게임과 점수 저장·랭킹 조회 REST API 서버를 함께 만든 클라이언트-서버 조합 | Unity, Spring Boot, JPA |
 
