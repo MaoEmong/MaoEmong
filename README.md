@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=김해준%20%7C%20Haejoon%20Kim&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=만들며%20배우는%20개발자&descSize=20&descAlignY=58)
+![EMONG 프로필](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=EMONG&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=만들며%20배우는%20개발자&descSize=20&descAlignY=58)
 
 [![Tech Blog](https://img.shields.io/badge/Tech%20Blog-devmong.inblog.io-FF5722?style=for-the-badge&logo=rss&logoColor=white)](https://devmong.inblog.io/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-프로젝트%20소개와%20PDF-285943?style=for-the-badge&logo=githubpages&logoColor=white)](https://maoemong.github.io/)
@@ -109,7 +109,7 @@ timeline
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MaoEmong&theme=tokyonight" width="800">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MaoEmong&theme=tokyonight&name=EMONG" alt="EMONG의 GitHub 활동 통계" width="800">
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer)
 
