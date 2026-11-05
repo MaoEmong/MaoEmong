@@ -12,7 +12,7 @@
 
 게임 개발(Unity)에서 출발해 서버(Spring), 웹(React), 모바일 앱(Flutter)과 AI를 활용한 서비스로 경험을 넓혀가고 있습니다.
 
-- 최근에는 **사원관리 시스템 EMS**, **AI 작업 관리 앱 픽셀 오피스**, **이커머스·AI 고객지원 서비스**를 만들고, **이음의 문제 해결·검증 사례**를 정리했습니다.
+- 최근에는 **제조실행시스템 FlowMES**의 계획한 8단계 개발과 최종 검사를 마쳤습니다. **사원관리 시스템 EMS**, **AI 작업 관리 앱 픽셀 오피스**, **이커머스·AI 고객지원 서비스**도 만들고, **이음의 문제 해결·검증 사례**를 정리했습니다.
 - 요구사항과 작업 방향을 정하고 AI 도구로 구현·검증을 진행하며, 판단 근거와 확인한 결과를 프로젝트에 남깁니다. → [AI 활용 기록](https://necessary-walleye-7cc.notion.site/AI-3657e0dfe7d681adbcabc19d8e359429)
 - 기능 구현부터 오류 처리, 테스트와 배포까지 이어서 경험하고, 배운 내용은 [기술 블로그](https://devmong.inblog.io/)에 정리합니다.
 
@@ -22,15 +22,18 @@
 
 | 프로젝트 | 최근 작업과 확인할 내용 | 주요 기술 |
 | --- | --- | --- |
+| [FlowMES · 제조실행시스템](https://github.com/MaoEmong/flowmes) | 자동차 부품 공장을 예로 작업지시·현장 실적·생산 묶음 추적·품질·재고·설비 현황을 연결했습니다. 재전송 중복 방지, 원본을 남기는 정정과 계산 결과 대조를 다룹니다. 개발 환경의 시뮬레이터로 최종 검사 완료 · [소개·화면·PDF](https://maoemong.github.io/projects/flowmes/) · [공개 화면 53장](https://github.com/MaoEmong/flowmes/blob/main/docs/screenshots/INDEX.md) | Java 21, Spring Boot, React, TypeScript, PostgreSQL, MQTT |
 | [EMS · 사원관리 시스템](https://github.com/MaoEmong/ems-ai-team-portfolio) | 사원·조직·근태·휴가·데모 급여·평가 관리. 권한 검사, 변경 이력, AI 기능과 자동 검증을 함께 정리한 웹 서비스 · [화면 갤러리](https://github.com/MaoEmong/ems-ai-team-portfolio/blob/master/docs/screenshots/README.md) | Java, Spring Boot, React, TypeScript, MySQL |
 | [픽셀 오피스 · Pixel Office](https://github.com/MaoEmong/pixel-office) | Claude Code·Codex의 팀 구성, 대화·회의·작업 진행을 관리하는 Windows 앱. 앱 안의 웹 미리보기, 부서별 주소 저장과 한글 입력 보완 · [0.1.2 시험판](https://github.com/MaoEmong/pixel-office/releases/tag/v0.1.2) · [화면 27장](https://github.com/MaoEmong/pixel-office/blob/main/docs/screenshots/README.md) | Flutter, Dart, TypeScript, Node.js |
 | [이음 · Java·Spring 개발 포트폴리오](https://github.com/MaoEmong/ieum-portfolio-clean) | 사람별 기록·약속 관리 서비스에서 다룬 서버 오류 구분, 실행 설정 검사와 AI 협업 사례. 선별한 독립 예제와 테스트로 판단·검증 과정을 설명 · [PDF](https://github.com/MaoEmong/ieum-portfolio-clean/blob/main/output/pdf/ieum-v1-portfolio.pdf) | Java, Spring Boot, PostgreSQL, Flutter |
 | [이커머스 · 최근 공개](https://github.com/MaoEmong/commerce-ai-portfolio) | 상품 탐색부터 주문·결제·환불·배송·반품과 관리자 운영까지 연결한 쇼핑몰. 중복 요청 방지와 결과가 불명확한 요청의 복구를 다룸. 결제·제품 AI는 대역으로 동작 · [소개·화면·PDF](https://maoemong.github.io/projects/commerce/) | Java, Spring Boot, React, TypeScript, PostgreSQL |
 | [Support Desk · AI 고객지원](https://github.com/MaoEmong/support-desk) | 고객사별 문의 분리, 도움말 근거 답변과 상담원 이관·초안 승인. 모의 AI로 화면 흐름 61건 검사 기록, 실제 Claude 호출은 미검증 · [소개·화면·PDF](https://maoemong.github.io/projects/support-desk/) | Next.js, React, TypeScript, PostgreSQL |
 
-픽셀 오피스로 AI 팀의 작업을 관리하며 EMS와 이커머스 프로젝트를 제작했습니다. 사용하는 도구의 문제를 수정하고, 그 도구로 서비스를 만드는 과정을 함께 경험했습니다. 프로젝트별 README에는 구현 내용과 검증 결과, 아직 확인하지 못한 범위를 구분해 남깁니다.
+픽셀 오피스로 AI 팀의 작업을 관리하며 FlowMES, EMS와 이커머스 프로젝트를 제작했습니다. 요구사항·완료 기준과 작업 방향은 직접 정하고, 구현과 시험 작성에는 AI 코딩 도구의 지원을 받았습니다. 사용하는 도구의 문제를 수정하고, 그 도구로 서비스를 만드는 과정을 함께 경험했습니다. 프로젝트별 README에는 구현 내용과 검증 결과, 아직 확인하지 못한 범위를 구분해 남깁니다.
 
-### 최근 작업 · 2026.10
+### 최근 작업 · 2026.10–11
+
+- **FlowMES 개발·최종 검사 완료:** 생산관리자·현장 작업자·품질·설비 담당자의 흐름을 연결했습니다. 2026-11-05 최종 검사를 두 회차 통과했고, 브라우저 검사 797건을 회차당 두 번씩 총 네 번 통과한 기록을 남겼습니다. 실제 공장 도입이나 인증이 아닌 개발 환경의 검증이며, 알려진 제한과 미확인 범위는 [검증·제한 문서](https://github.com/MaoEmong/flowmes/blob/main/docs/portfolio/README.md)에 함께 정리했습니다.
 
 - **이커머스 공개:** 고객·관리자 화면, 설계 설명과 실행 방법을 정리했습니다. 공개본의 프런트엔드 검사 319개와 서버 단위 검사 40개, 새 데이터베이스에서의 기동 확인을 기록했습니다. 서버 통합 검사는 이번 공개본에서 재실행하지 않았으며, 실제 결제사·실제 AI 모델·외부 배포는 미연결입니다.
 - **Support Desk 공개:** 문의 분류·근거 답변·상담원 승인과 고객사별 정보 분리를 구현했습니다. 화면 검사는 데모 계정 변경 전 결과이며, 실제 Claude 호출은 미검증입니다.
@@ -46,6 +49,7 @@ timeline
     2026 : Spring 백엔드 · 웹 : Flutter 앱 : RAG · LLM · Multi-Agent : Docker · MSA · K8s
     2026.09 : 이음 Java·Spring 개발 포트폴리오 정리
     2026.10 : React · Spring 기반 EMS와 이커머스 제작 : 픽셀 오피스 Windows 0.1.2 시험판 공개
+    2026.11 : FlowMES 8단계 개발·최종 검사 완료 : 생산·품질·재고·설비를 연결한 MES 포트폴리오 정리
 ```
 
 ## 🛠 기술 스택
